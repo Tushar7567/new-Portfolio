@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import ProjectDetails from "./ProjectDetails";
+import RightSideDialog from "./RightSideDialog";
+// import ProjectDetails from "./ProjectDetails";
 
 const Project = ({
   title,
@@ -36,7 +37,7 @@ const Project = ({
       </div>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
       {isHidden && (
-        <ProjectDetails
+        <RightSideDialog
           title={title}
           description={description}
           subDescription={subDescription}
