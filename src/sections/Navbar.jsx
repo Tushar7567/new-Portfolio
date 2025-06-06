@@ -34,9 +34,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between py-2 sm:py-0">
           <a
             href="/"
-            className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
+            className="text-2xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
             Tushar
+            <img src="favicon.svg" className="inline-block w-8 h-7 ml-2 mb-1" alt="logo" />
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}
