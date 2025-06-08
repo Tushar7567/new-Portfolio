@@ -28,18 +28,18 @@ const Contact = () => {
     setIsLoading(true);
 
     try {
-      console.log("From submitted:", formData);
       await emailjs.send(
-        "service_79b0nyj",
-        "template_17us8im",
+        "service_qq3oxmf",
+        "template_20cdkfp",
         {
           from_name: formData.name,
           to_name: "Tushar",
           from_email: formData.email,
           to_email: "swain.tushar00@gmail.com",
           message: formData.message,
+          title: "New Message from Portfolio",
         },
-        "pn-Bw_mS1_QQdofuV"
+        { publicKey: "WdaQWeLGswkH-aQWT" }
       );
       setIsLoading(false);
       setFormData({ name: "", email: "", message: "" });
