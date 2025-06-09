@@ -47,14 +47,14 @@ const RightSideDialog = ({
 
           {/* Tags */}
           <div className="flex flex-wrap gap-3 mt-4">
-            {tags.map((tag) => (
+            {tags.map((tag) => tag.path ? (
               <img
                 key={tag.id}
                 src={tag.path}
                 alt={tag.name}
                 className="w-10 h-10 rounded-lg hover:scale-105 transition"
               />
-            ))}
+            ) : null)}
           </div>
 
           {/* CTA Link */}
