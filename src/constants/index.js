@@ -11,7 +11,7 @@ export const myProjects = [
       "Implemented secure and efficient smart contract interactions using web3 technologies to facilitate donations, withdrawals, and campaign status updates with gas optimization.",
       "Ensured a responsive and user-friendly frontend experience with detailed transaction feedback, error handling, and wallet connection status indicators.",
     ],
-    href: "",
+    href: "https://crowdfundingcamp.netlify.app",
     logo: "",
     image: "/assets/projects/Crowdfunding_Pic.png",
     tags: [
